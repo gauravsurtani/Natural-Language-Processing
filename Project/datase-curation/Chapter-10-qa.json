@@ -1,0 +1,288 @@
+Here are 40 questions and answers on deep learning generated from the provided content:
+
+```json
+[
+  {
+    "id": "1", 
+    "contributed_by": "group 3", 
+    "question": "What are neural networks modeled on?",
+    "answers": ["Neural networks are computing systems modeled on the human brain and nervous system."],
+    "referenced_from": "Neural networks are computing systems modeled on the human brain and nervous system."
+  },
+  {
+    "id": "2", 
+    "contributed_by": "group 3", 
+    "question": "What makes neural networks nonlinear models?",
+    "answers": ["The nonlinearity in the activation function makes neural networks nonlinear models."],
+    "referenced_from": "The nonlinearity in the activation function g(z) is essential, since without it the model f(X) in (10.1) would collapse into a simple linear model in X1, . . . , Xp."
+  },
+  {
+    "id": "3", 
+    "contributed_by": "group 3", 
+    "question": "What is backpropagation?",
+    "answers": ["Backpropagation is the process of assigning fractions of the prediction error to each of the parameters via the chain rule when computing gradients in neural networks."],
+    "referenced_from": "In (10.29) we see that a fraction of that residual gets attributed to each of the hidden units according to the value of g(zik). Then in (10.30) we see a similar attribution to input j via hidden unit k. So the act of differentiation assigns a fraction of the residual to each of the parameters via the chain rule—a process known as backpropagation in the neural network literature."
+  },
+  {
+    "id": "4", 
+    "contributed_by": "group 3", 
+    "question": "What is dropout regularization?",
+    "answers": ["Dropout regularization randomly drops hidden units during training to prevent overfitting."],
+    "referenced_from": "Dropout regularization randomly removes a fraction φ of the units in a layer when fitting the model. Figure 10.19 illustrates this. This is done separately each time a training observation is processed." 
+  },
+  {
+    "id": "5", 
+    "contributed_by": "group 3", 
+    "question": "What are convolutional neural networks used for?",
+    "answers": ["Convolutional neural networks are commonly used for image classification."],
+    "referenced_from": "A special family of convolutional neural networks (CNNs) has evolved for classifying images such as these, and has shown spectacular success on a wide range of problems."
+  },
+  {
+    "id": "6", 
+    "contributed_by": "group 3", 
+    "question": "What are recurrent neural networks used for?",
+    "answers": ["Recurrent neural networks are used for modeling sequential data like text, time series, speech, etc."],
+    "referenced_from": "In a recurrent neural network (RNN), the input object X is a sequence. Consider a corpus of documents, such as the collection of IMDb movie reviews. Each document can be represented as a sequence of L words, so X = {X1, X2, . . . , XL}, where each Xl represents a word."
+  },
+  {
+    "id": "7", 
+    "contributed_by": "group 3", 
+    "question": "What are embeddings in NLP?",
+    "answers": ["Embeddings are low-dimensional dense vector representations of words or documents used in NLP."],
+    "referenced_from": "The simplest and most common featurization is the bag-of-words model. There are at least two popular ways to take the context into account: * The bag-of-n-grams model. * Treat the document as a sequence, taking account of all the words in the context of those that preceded and those that follow."
+  },
+  {
+    "id": "8", 
+    "contributed_by": "group 3", 
+    "question": "What is data augmentation?",
+    "answers": ["Data augmentation artificially expands the training set by creating distorted versions of images that do not change the class label."],
+    "referenced_from": "An additional important trick used with image modeling is data augmentation. Essentially, each training image is replicated many times, with each replicate randomly distorted in a natural way such that human recognition is unaffected."
+  },
+  {
+    "id": "9", 
+    "contributed_by": "group 3", 
+    "question": "What is transfer learning?",
+    "answers": ["Transfer learning uses pretrained models on large datasets to extract features or initialize models for related problems."], 
+    "referenced_from": "One can use these pretrained hidden layers for new problems with much smaller training sets (a process referred to as weight freezing), and just train the last few layers of the network, which requires much less data."
+  },
+  {
+    "id": "10", 
+    "contributed_by": "group 3", 
+    "question": "What is the advantage of softmax?",
+    "answers": ["The softmax activation function ensures the outputs represent probabilities that sum to 1."],
+    "referenced_from": "We use the special softmax activation function (see (4.13) on page 145), f_m(X) = Pr(Y = m|X) = e^{Z_m}/sum_{l=0}^9 e^{Z_l}, for m = 0, 1, . . . , 9. This ensures that the 10 numbers behave like probabilities (non-negative and sum to one)."
+  },
+  {
+    "id": "11", 
+    "contributed_by": "group 3", 
+    "question": "What is multitask learning?",
+    "answers": ["In multitask learning, a single model predicts multiple responses simultaneously."],
+    "referenced_from": "More generally, in multi-task learning one can predict different responses simultaneously with a single network; they all have a say in the formation of the hidden layers."
+  },
+  {
+    "id": "12", 
+    "contributed_by": "group 3", 
+    "question": "What is early stopping?",
+    "answers": ["Early stopping is a regularization technique that stops training a model when validation error starts to increase."],
+    "referenced_from": "Early stopping during stochastic gradient descent can also serve as a form of regularization that prevents us from interpolating the training data, while still getting very good results on test data."
+  },
+  {
+    "id": "13", 
+    "contributed_by": "group 3", 
+    "question": "What is Occam's razor principle?",
+    "answers": ["Occam's razor principle states that when faced with competing hypotheses that make the same predictions, the simplest hypothesis should be preferred."],
+    "referenced_from": "When faced with several methods that give roughly equivalent performance, pick the simplest. This is known as Occam's razor principle."
+  },
+  {
+    "id": "14", 
+    "contributed_by": "group 3", 
+    "question": "What is the bias-variance tradeoff?",
+    "answers": ["The bias-variance tradeoff states that as model complexity increases, bias decreases and variance increases."],
+    "referenced_from": "To summarize: though double descent can sometimes occur in neural networks, we typically do not want to rely on this behavior. Moreover, it is important to remember that the bias-variance tradeoff always holds."
+  },
+  {
+    "id": "15", 
+    "contributed_by": "group 3", 
+    "question": "What are activation functions?",
+    "answers": ["Activation functions like sigmoid and ReLU transform the linear output of a neuron into a nonlinear activation."],
+    "referenced_from": "First the K activations Ak, k = 1, . . . , K, in the hidden layer are computed as functions of the input features X1, . . . , Xp, Ak = hk(X) = g(wk0 + sum_{j=1}^p wkjXj), where g(z) is a nonlinear activation function that is specified in advance."
+  },
+  {
+    "id": "16", 
+    "contributed_by": "group 3", 
+    "question": "What is gradient descent?",
+    "answers": ["Gradient descent iteratively updates model parameters to minimize an objective function."],
+    "referenced_from": "Gradient descent usually takes many steps to reach a local minimum. In practice, there are a number of approaches for accelerating the process."
+  },
+  {
+    "id": "17", 
+    "contributed_by": "group 3", 
+    "question": "What is stochastic gradient descent?",
+    "answers": ["Stochastic gradient descent estimates the gradient from a small random subset of the data rather than the full dataset."],
+    "referenced_from": "When n is large, instead of summing (10.29)-(10.30) over all n observations, we can sample a small fraction or minibatch of them each time we compute a gradient step. This process is known as stochastic gradient descent (SGD) and is the state of the art for learning deep neural networks."
+  },
+  {
+    "id": "18", 
+    "contributed_by": "group 3", 
+    "question": "What are epochs in neural network training?", 
+    "answers": ["An epoch refers to one pass through the entire training dataset during stochastic gradient descent."],
+    "referenced_from": "SGD uses batches of 256 observations in computing the gradient, and doing the arithmetic, we see that an epoch corresponds to 188 gradient steps."
+  },
+  {
+    "id": "19", 
+    "contributed_by": "group 3", 
+    "question": "What is batch normalization?",
+    "answers": ["Batch normalization normalizes the outputs of a layer across a batch to stabilize gradients."],
+    "referenced_from": "Neural networks are somewhat sensitive to the scale of the inputs, much as ridge and lasso regularization are affected by scaling. Here the inputs are eight-bit grayscale values between 0 and 255, so we rescale to the unit interval."
+  },
+  {
+    "id": "20", 
+    "contributed_by": "group 3", 
+    "question": "What are convolutional filters?",
+    "answers": ["Convolutional filters are small matrices convolved with an image to detect patterns and features."],
+    "referenced_from": "A convolution layer is made up of a large number of convolution filters, each of which is a template that determines whether a particular local feature is present in an image."
+  },
+  {
+    "id": "21", 
+    "contributed_by": "group 3", 
+    "question": "What are pooling layers?",
+    "answers": ["Pooling layers downsample or summarize convolutional layers to reduce computational load."],
+    "referenced_from": "A pooling layer provides a way to condense a large image into a smaller summary image. While there are a number of possible ways to perform pooling, the max pooling operation summarizes each non-overlapping 2 × 2 block of pixels in an image using the maximum value in the block."
+  },
+  {
+    "id": "22", 
+    "contributed_by": "group 3", 
+    "question": "How are CNNs and RNNs different?",
+    "answers": ["CNNs exploit spatial structure like images, while RNNs exploit sequential structure like text."],
+    "referenced_from": "Convolutional neural networks accommodate the spatial structure of image inputs. Recurrent neural networks accommodate and take advantage of the sequential nature of text and time series inputs."
+  },
+  {
+    "id": "23", 
+    "contributed_by": "group 3", 
+    "question": "What is weight sharing?",
+    "answers": ["Weight sharing refers to using the same parameters at different locations in a network."],
+    "referenced_from": "These are used repeatedly as we process each element in the sequence, i.e. they are not functions of l. This is a form of weight sharing used by RNNs, and similar to the use of filters in convolutional neural networks (Section 10.3.1.)"
+  },
+  {
+    "id": "24", 
+    "contributed_by": "group 3", 
+    "question": "What are embeddings?",
+    "answers": ["Embeddings are dense vector representations of words or documents used in NLP."],
+    "referenced_from": "The simplest and most common featurization is the bag-of-words model. There are at least two popular ways to take the context into account: * The bag-of-n-grams model. * Treat the document as a sequence, taking account of all the words in the context of those that preceded and those that follow."
+  },
+  {
+    "id": "25", 
+    "contributed_by": "group 3", 
+    "question": "What is the advantage of ReLU over sigmoid activation?",
+    "answers": ["ReLUs train faster and avoid vanishing gradients compared to sigmoids."],
+    "referenced_from": "The preferred choice in modern neural networks is the ReLU (rectified linear unit) activation function, which takes the form g(z) = (z)+ = { 0 if z < 0, z otherwise." 
+  },
+  {
+    "id": "26", 
+    "contributed_by": "group 3", 
+    "question": "How are CNNs and MLPs different?",
+    "answers": ["CNNs exploit spatial structure while MLPs treat inputs as a flat vector."],
+    "referenced_from": "What distinguishes neural networks from these methods is the particular structure of the model. Figure 10.1 shows a simple feed-forward neural network for modeling a quantitative response using p = 4 predictors. In the terminology of neural networks, the four features X1, . . . , X4 make up the units in the input layer."
+  },
+  {
+    "id": "27", 
+    "contributed_by": "group 3", 
+    "question": "What is the vanishing gradient problem?",
+    "answers": ["The vanishing gradient problem refers to gradient values becoming very small in deep networks, preventing effective training."],
+    "referenced_from": "With long sequences, this overcomes the problem of early signals being washed out by the time they get propagated through the chain to the final activation vector AL."
+  },
+  {
+    "id": "28", 
+    "contributed_by": "group 3", 
+    "question": "What is the interpolation threshold?",
+    "answers": ["The interpolation threshold is the model complexity at which training error reaches zero."],
+    "referenced_from": "Next, we fit a natural spline with d = 20 degrees of freedom. Since n = 20, this means that n = d, and we have zero training error; in other words, we have interpolated the training data!"
+  },
+  {
+    "id": "29", 
+    "contributed_by": "group 3", 
+    "question": "What causes the double descent phenomenon?",
+    "answers": ["Double descent can occur when heavily overparametrized models find smooth interpolating functions despite having zero training error."],
+    "referenced_from": "Essentially, f^20(X) is very wild because there is just a single way to interpolate n = 20 observations using d = 20 basis functions, and that single way results in a somewhat extreme fitted function. By contrast, there are an infinite number of ways to interpolate n = 20 observations using d = 42 or d = 80 basis functions, and the smoothest of them — that is, the minimum norm solution — is much less wild than f^20(X)!"
+  },
+  {
+    "id": "30", 
+    "contributed_by": "group 3", 
+    "question": "How can RNNs model sequential data?",
+    "answers": ["RNNs process sequences incrementally, passing information across sequence steps through a recurrent hidden layer."],
+    "referenced_from": "This would also be the case with more hidden layers. Thus, through a chain of transformations, the network is able to build up fairly complex transformations of X that ultimately feed into the output layer as features."
+  },  
+  {
+    "id": "31", 
+    "contributed_by": "group 3", 
+    "question": "What are local and global minima?",
+    "answers": ["A local minimum is a point with lower objective value than nearby points, while a global minimum gives the lowest value over the entire parameter space."],
+    "referenced_from": "As an example, Figure 10.17 shows a simple nonconvex function of a single variable θ; there are two solutions: one is a local minimum and the other is a global minimum."
+  },
+  {
+    "id": "32", 
+    "contributed_by": "group 3", 
+    "question": "What is overparametrization?",
+    "answers": ["Overparametrization refers to using more model parameters than training examples."],
+    "referenced_from": "There are 60,000 images in the training set. While this might seem like a large training set, there are almost four times as many coefficients in the neural network model as there are observations in the training set! To avoid overfitting, some regularization is needed."
+  },
+  {
+    "id": "33", 
+    "contributed_by": "group 3", 
+    "question": "How does SGD regularize neural networks?",
+    "answers": ["The noise from stochastic gradient steps acts as a form of regularization that can prevent overfitting."],
+    "referenced_from": "It turns out that SGD naturally enforces its own form of approximately quadratic regularization. Today this and other properties of SGD for deep learning are the subject of much research in the machine learning literature."
+  },
+  {
+    "id": "34", 
+    "contributed_by": "group 3", 
+    "question": "What are the advantages of linear models?",
+    "answers": ["Linear models are often interpretable, require less data, and may have performance competitive with nonlinear methods."],
+    "referenced_from": "Linear models are much easier to present and understand than the neural network, which is essentially a black box. The lasso selected 12 of the 19 variables in making its prediction. So in cases like this we are much better off following the Occam’s razor principle: when faced with several methods that give roughly equivalent performance, pick the simplest."
+  },
+  {
+    "id": "35", 
+    "contributed_by": "group 3", 
+    "question": "How are regularization and dropout related?",
+    "answers": ["Both regularization and dropout help prevent overfitting by constraining the model."],
+    "referenced_from": "In practice dropout is achieved by randomly setting the activations for the “dropped out” units to zero, while keeping the architecture intact. This prevents nodes from becoming over-specialized, and can be seen as a form of regularization."
+  },
+  {
+    "id": "36", 
+    "contributed_by": "group 3", 
+    "question": "What causes exploding gradients?",
+    "answers": ["Exploding gradients occur when gradient values become very large, preventing effective training."],
+    "referenced_from": "With long sequences, this overcomes the problem of early signals being washed out by the time they get propagated through the chain to the final activation vector AL."
+  },
+  {
+    "id": "37",
+    "contributed_by": "group 3",
+    "question": "How do RNNs accommodate variable length sequences?",
+    "answers": ["RNNs can process sequences of any length by looping through the sequence elements."],
+    "referenced_from": "Each Xl is a vector; in the document example Xl could represent a one-hot encoding for the lth word based on the language dictionary for the corpus (see the top panel in Figure 10.13 for a simple example)."
+  },
+  
+  {
+    "id": "38",
+    "contributed_by": "group 3",
+    "question": "What are the disadvantages of neural networks?",
+    "answers": ["Disadvantages of neural networks include long training times, lack of interpretability, and sensitivity to hyperparameters."],
+    "referenced_from": "Linear models are much easier to present and understand than the neural network, which is essentially a black box. The lasso selected 12 of the 19 variables in making its prediction. So in cases like this we are much better off following the Occam’s razor principle: when faced with several methods that give roughly equivalent performance, pick the simplest."
+  },
+  
+  {
+    "id": "39",
+    "contributed_by": "group 3",
+    "question": "How does max pooling work?",
+    "answers": ["Max pooling reduces the size of feature maps by summarizing non-overlapping blocks with the maximum activation."],
+    "referenced_from": "A pooling layer provides a way to condense a large image into a smaller summary image. While there are a number of possible ways to perform pooling, the max pooling operation summarizes each non-overlapping 2 × 2 block of pixels in an image using the maximum value in the block."
+  },
+  
+  {
+    "id": "40",
+    "contributed_by": "group 3",
+    "question": "What is the chain rule used for in neural networks?",
+    "answers": ["The chain rule allows efficient computation of gradients via backpropagation in neural networks."],
+    "referenced_from": "How complicated is the calculation (10.26)? It turns out that it is quite simple here, and remains simple even for much more complex networks, because of the chain rule of differentiation."
+  }
+]

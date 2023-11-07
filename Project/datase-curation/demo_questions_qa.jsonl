@@ -1,0 +1,2 @@
+{"id": "5", "contributed_by": "group 2", "question": "What is a fully connected layer in neural network", "answers": ["It is a layer such that each unit in the layer takes as input the outputs from all the units in the previous layer"]}
+{"id": "6", "contributed_by": "group 2", "question": "What does softmax do", "answers": ["Softmax is a function that converts (or normalizes) a vector of real values to a vector that encodes a probability distribution. Each element of the resulting vector ranges between 0 and 1, and they sum to 1."]}

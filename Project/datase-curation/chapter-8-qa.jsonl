@@ -1,0 +1,151 @@
+[
+  {"id": "30", "contributed_by": "group 3", 
+   "question": "What are tree-based methods used for?",
+   "answers": ["Tree-based methods are used for regression and classification."],
+   "referenced_from": "Decision trees can be applied to both regression and classification problems."},
+   
+  {"id": "31", "contributed_by": "group 3", 
+   "question": "What are the two main steps for predicting using a regression tree?",
+   "answers": ["1. Divide the predictor space into distinct non-overlapping regions. 2. For each region, make a prediction using the mean response of training observations in that region."],
+   "referenced_from": "In order to make a prediction for a given observation, we typically use the mean or the mode response value for the training observations in the region to which it belongs."},
+   
+  {"id": "32", "contributed_by": "group 3",
+   "question": "How are the regions created in a decision tree?",
+   "answers": ["The regions are created by recursive binary splitting of the predictor space into high-dimensional rectangles or boxes."],
+   "referenced_from": "In theory, the regions could have any shape. However, we choose to divide the predictor space into high-dimensional rectangles, or boxes, for simplicity and for ease of interpretation of the resulting predictive model."},
+   
+  {"id": "33", "contributed_by": "group 3", 
+   "question": "What is recursive binary splitting?",
+   "answers": ["Recursive binary splitting is a greedy top-down approach that involves splitting the predictor space into two regions, and then repeating the process on each of the resulting regions to further split the space."],
+   "referenced_from": "It is a top-down, greedy approach that is known as recursive binary splitting."},
+
+  {"id": "34", "contributed_by": "group 3",
+    "question": "What is used as the criterion to find the best split at each step when building a regression tree?",
+    "answers": ["The best split is the one that leads to the greatest reduction in RSS (residual sum of squares)."],
+    "referenced_from": "We seek the value of j and s that minimize the equation"},
+
+  {"id": "35", "contributed_by": "group 3",
+   "question": "How are classification trees different from regression trees?",
+   "answers": ["Classification trees predict a qualitative response by using the most commonly occurring class in each region, rather than the mean response value used in regression trees."],
+   "referenced_from": "Classification trees predict a qualitative response by using the most commonly occurring class in each region, rather than the mean response value used in regression trees."},
+
+  {"id": "36", "contributed_by": "group 3",
+   "question": "What are some advantages of decision trees over linear models?",
+   "answers": ["Advantages include ease of interpretation, ability to capture complex relationships, and built-in feature selection."],
+   "referenced_from": "Decision trees for regression and classification have a number of advantages over the more classical approaches seen in Chapters 3 and 4:"},
+   
+  {"id": "37", "contributed_by": "group 3",
+   "question": "What are terminal nodes in a decision tree called?",
+   "answers": ["Terminal nodes are also known as leaves."],
+   "referenced_from": "The regions R1, R2, and R3 are known as terminal nodes or leaves of the tree."},
+
+  {"id": "38", "contributed_by": "group 3",
+   "question": "What is tree pruning and why is it useful?",
+   "answers": ["Tree pruning involves cutting back a fully grown tree to obtain a subtree in order to avoid overfitting. It trades a little bias for a reduction in variance."],
+   "referenced_from": "Tree pruning involves cutting back a fully grown tree in order to obtain a subtree."},
+
+  {"id": "39", "contributed_by": "group 3",
+   "question": "How does cost complexity pruning work?",
+   "answers": ["Cost complexity pruning generates a sequence of subtrees indexed by a tuning parameter that controls the tradeoff between tree size and fit to the training data."],
+   "referenced_from": "Cost complexity pruning—also known as weakest link pruning—gives us a way to do just this."},
+  
+  {"id": "40", "contributed_by": "group 3",
+   "question": "What is bagging?",
+   "answers": ["Bagging involves creating multiple copies of the original training data set using bootstrap sampling, fitting a decision tree to each, and then combining the predictions."],
+   "referenced_from": "Bootstrap aggregation, or bagging, is a general-purpose procedure for reducing the variance of a statistical learning method; we introduce it here because it is particularly useful and frequently used in the context of decision trees."},
+   
+  {"id": "41", "contributed_by": "group 3",
+   "question": "How does random forests improve upon bagging?",
+   "answers": ["Random forests reduce correlation between trees by splitting each node using a subset of features chosen at random."],
+   "referenced_from": "Random forests overcome this problem by forcing each split to consider only a subset of the predictors."},
+
+  {"id": "42", "contributed_by": "group 3",
+   "question": "What is boosting?",
+   "answers": ["Boosting involves fitting a sequence of trees on modified versions of the data, where each successive tree is fit on the residuals from the previous tree."],
+   "referenced_from": "Boosting works in a similar way, except that the trees are grown sequentially: each tree is grown using information from previously grown trees."},
+
+  {"id": "43", "contributed_by": "group 3",
+   "question": "How does boosting learn slowly?",
+   "answers": ["Each new tree in boosting is shrunk and fits the residual from the current ensemble. The learning rate hyperparameter further slows learning."],
+   "referenced_from": "Rather than fitting a single large decision tree to the data, which amounts to fitting the data hard and potentially overfitting, the boosting approach instead learns slowly."},
+
+  {"id": "44", "contributed_by": "group 3",
+   "question": "What is Bayesian Additive Regression Trees (BART)?",
+   "answers": ["BART is an ensemble method that fits successive trees by perturbing the previous tree to avoid overfitting. It can be seen as a Bayesian approach."],
+   "referenced_from": "Finally, we discuss Bayesian additive regression trees (BART), another ensemble method that uses decision trees as its building blocks."},
+
+  {"id": "45", "contributed_by": "group 3",
+   "question": "What is the out-of-bag error in bagging?",
+   "answers": ["The out-of-bag error provides an estimate of the test error by using predictions from those trees that did not use a given observation."],
+   "referenced_from": "The remaining one-third of the observations not used to fit a given bagged tree are referred to as the out-of-bag (OOB) observations."},
+
+  {"id": "46", "contributed_by": "group 3",
+   "question": "How are qualitative predictors handled in decision trees?",
+   "answers": ["Decision trees can split qualitative predictors without needing dummy variable encoding, by partitioning their values."],
+   "referenced_from": "However, decision trees can be constructed even in the presence of qualitative predictor variables."},
+
+  {"id": "47", "contributed_by": "group 3",
+   "question": "What are the components of a decision tree?",
+   "answers": ["The components are internal nodes, terminal nodes (leaves), branches, and regions."],
+   "referenced_from": "The points along the tree where the predictor space is split are referred to as internal nodes. In Figure 8.1, the two internal nodes are indicated by the text Years<4.5 and Hits<117.5. We refer to the segments of the trees that connect the nodes as branches."},
+
+  {"id": "48", "contributed_by": "group 3",
+   "question": "What is the deviance?",
+   "answers": ["The deviance indicates how well the tree fits the training data. Lower deviance is better."],
+   "referenced_from": "We can access the value of the deviance using log_loss(), −2∑m ∑k nmk log ˆpmk, where nmk is the number of observations in the mth terminal node that belong to the kth class."},
+
+  {"id": "49", "contributed_by": "group 3",
+   "question": "What is the Gini index?",
+   "answers": ["The Gini index is a measure of total variance across classes that is used to evaluate splits when building classification trees."],
+   "referenced_from": "The Gini index is defined by G = ∑K k=1 ˆpmk(1 − ˆpmk), a measure of total variance across the K classes."},
+
+  {"id": "50", "contributed_by": "group 3",
+   "question": "What is entropy?",
+   "answers": ["Entropy is a measure of node purity used as a criterion for choosing splits in classification trees."],
+   "referenced_from": "An alternative to the Gini index is entropy, given by D = −∑K k=1 ˆpmk log ˆpmk."},
+
+  {"id": "51", "contributed_by": "group 3",
+   "question": "How are majority votes used in bagging classification trees?",
+   "answers": ["Each tree makes a class prediction for a given observation. The overall prediction is the most common class prediction across all trees."],
+   "referenced_from": "In that situation, there are a few possible approaches, but the simplest is as follows. For a given test observation, we can record the class predicted by each of the B trees, and take a majority vote: the overall prediction is the most commonly occurring class among the B predictions."},
+
+  {"id": "52", "contributed_by": "group 3",
+   "question": "What are weak learners?",
+   "answers": ["Weak learners are simple models like single decision trees that can be combined into a more powerful ensemble."],
+   "referenced_from": "These simple building block models are sometimes known as weak learners, since they may lead to mediocre predictions on their own."},
+
+  {"id": "53", "contributed_by": "group 3",
+   "question": "What is the interaction depth in boosting?",
+   "answers": ["The interaction depth controls the complexity of boosted trees. Depth 1 corresponds to an additive model."],
+   "referenced_from": "More generally d is the interaction depth, and controls the interaction order of the boosted model, since d splits can involve at most d variables."},
+
+  {"id": "54", "contributed_by": "group 3",
+   "question": "What are variable importance measures?",
+   "answers": ["Variable importance measures summarize the predictive value of each feature, such as mean Gini reduction."],
+   "referenced_from": "In the case of bagging regression trees, we can record the total amount that the RSS (8.1) is decreased due to splits over a given predictor, averaged over all B trees."},
+
+  {"id": "55", "contributed_by": "group 3",
+   "question": "How does BART work?",
+   "answers": ["BART fits successive trees by randomly perturbing the previous tree to avoid overfitting."],
+   "referenced_from": "BART is related to both approaches: each tree is constructed in a random manner as in bagging and random forests, and each tree tries to capture signal not yet accounted for by the current model, as in boosting."},
+
+  {"id": "56", "contributed_by": "group 3", 
+   "question": "What are the tuning parameters in boosting?",
+   "answers": ["Important tuning parameters in boosting include the number of trees B, the learning rate, and the interaction depth."],
+   "referenced_from": "Boosting has three tuning parameters:"},
+
+  {"id": "57", "contributed_by": "group 3",
+   "question": "What is the burn-in period in BART?",
+   "answers": ["The burn-in period refers to the initial iterations in BART that are discarded before computing the average prediction."],
+   "referenced_from": "We typically throw away the first few of these prediction models, since models obtained in the earlier iterations — known as the burn-in period — tend not to provide very good results."},
+
+  {"id": "58", "contributed_by": "group 3",
+   "question": "How does random forests improve over bagging?",
+   "answers": ["Random forests reduce correlation between trees by splitting nodes using random subsets of features."],
+   "referenced_from": "Random forests provide an improvement over bagged trees by way of a small tweak that decorrelates the trees."},
+
+  {"id": "59", "contributed_by": "group 3",
+   "question": "What is the difference between regression trees and linear models?",
+   "answers": ["Regression trees partition the feature space into regions with constant prediction within each region, while linear models assume a global linear relationship."],
+   "referenced_from": "Regression and classification trees have a very different flavor from the more classical approaches for regression and classification presented in Chapters 3 and 4."}
+]

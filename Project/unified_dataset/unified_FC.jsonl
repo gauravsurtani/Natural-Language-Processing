@@ -1,0 +1,275 @@
+{"id": 1, "contributed_by": "group 9", "claim": "It is often the case that only a small fraction of the available predictors are substantially associated with Y.", "label": "SUPPORTS"}
+{"id": 2, "contributed_by": "group 9", "claim": "All predictors have a positive relationship with Y, in the sense that larger values of the predictor are associated with larger values of Y.", "label": "REFUTES"}
+{"id": 3, "contributed_by": "group 9", "claim": "The potential disadvantage of a parametric approach is that the model we choose will usually not match the true unknown form of f.", "label": "SUPPORTS"}
+{"id": 4, "contributed_by": "group 9", "claim": "Fitting a more flexible model requires estimating a lesser number of parameters.", "label": "REFUTES"}
+{"id": 5, "contributed_by": "group 9", "claim": "Linear regression is a relatively inflexible approach, because it can only generate linear functions.", "label": "SUPPORTS"}
+{"id": 6, "contributed_by": "group 9", "claim": "GAMs are less flexible than linear regression. They are also somewhat more interpretable than linear regression.", "label": "REFUTES"}
+{"id": 7, "contributed_by": "group 9", "claim": "The goal of cluster analysis is to ascertain, on the basis of x1, ..., xn, whether the observations fall into relatively distinct groups.", "label": "SUPPORTS"}
+{"id": 8, "contributed_by": "group 9", "claim": "No problems fall naturally into the supervised or unsupervised learning paradigms.", "label": "REFUTES"}
+{"id": 9, "contributed_by": "group 9", "claim": "Variables can be characterized as either quantitative or qualitative.", "label": "SUPPORTS"}
+{"id": 10, "contributed_by": "group 9", "claim": "We tend to refer to problems with a quantitative response as classification problems, while those involving a qualitative response are often referred to as regression problems.", "label": "REFUTES"}
+{"id": 11, "contributed_by": "group 9", "claim": "In the regression setting, the most commonly-used measure is the mean squared error.", "label": "SUPPORTS"}
+{"id": 12, "contributed_by": "group 9", "claim": "It is guaranteed that the method with the lowest training MSE will also have the lowest test MSE", "label": "REFUTES"}
+{"id": 13, "contributed_by": "group 9", "claim": "It is possible to show that the expected test MSE, for a given value x0 , can always be decomposed into the sum of three fundamental quantities: the variance of \u02c6f(x0), the squared bias of \u02c6f(x0) and the variance of the error variance bias terms.", "label": "SUPPORTS"}
+{"id": 14, "contributed_by": "group 9", "claim": "Bias refers to the amount by which \u02c6f would change if we estimated it using a different training data set.", "label": "REFUTES"}
+{"id": 15, "contributed_by": "group 9", "claim": "As in the regression setting, we are most interested in the error rates that result from applying our classifier to test observations that were not used in training.", "label": "SUPPORTS"}
+{"id": 16, "contributed_by": "group 9", "claim": "KNN can never produce classifiers that are close to the optimal Bayes classifier.", "label": "REFUTES"}
+{"id": 17, "contributed_by": "group 9", "claim": "The choice of K has a drastic effect on the KNN classifier obtained.", "label": "SUPPORTS"}
+{"id": 18, "contributed_by": "group 9", "claim": "Just as in the regression setting, there is always a strong relationship between the training error rate and the test error rate.", "label": "REFUTES"}
+{"id": 19, "contributed_by": "group 9", "claim": "Like most programming languages, Python uses functions to perform operations.", "label": "SUPPORTS"}
+{"id": 20, "contributed_by": "group 9", "claim": "A python function can only have a small number of inputs.", "label": "REFUTES"}
+{"id": 21, "contributed_by": "group 9", "claim": "A package is a collection of modules that are not necessarily included in the base Python distribution.", "label": "SUPPORTS"}
+{"id": 22, "contributed_by": "group 9", "claim": "The syntax np.array() indicates that the function being called is part of the array package.", "label": "REFUTES"}
+{"id": 23, "contributed_by": "group 9", "claim": "In matplotlib, a plot consists of a figure and one or more axes.", "label": "SUPPORTS"}
+{"id": 24, "contributed_by": "group 9", "claim": "The axes do not contain important information about each plot, such as its x- and y-axis labels, title, and more.", "label": "REFUTES"}
+{"id": 25, "contributed_by": "group 9", "claim": "The function np.linspace() can be used to create a sequence of numbers.", "label": "SUPPORTS"}
+{"id": 26, "contributed_by": "group 9", "claim": "If step is not specified in the function np.arange(), then a default value of 0 is used.", "label": "REFUTES"}
+{"id": 27, "contributed_by": "group 9", "claim": "Typing A[1,2] retrieves the element corresponding to the second row and third column. (As usual, Python indexes from 0.)", "label": "SUPPORTS"}
+{"id": 28, "contributed_by": "group 9", "claim": "The first number after the open-bracket symbol [ refers to the column, and the second number refers to the row.", "label": "REFUTES"}
+{"id": 29, "contributed_by": "group 9", "claim": "The symbol & computes an element-wise and operation", "label": "SUPPORTS"}
+{"id": 30, "contributed_by": "group 9", "claim": "The symbol | computes an element-wise and operation.", "label": "REFUTES"}
+{"id": 31, "contributed_by": "group 9", "claim": "A for loop is a standard tool in many languages that repeatedly evaluates for some chunk of code while varying different values inside the code", "label": "SUPPORTS"}
+{"id": 32, "contributed_by": "group 9", "claim": "Loops cannot be nested by additional indentation.", "label": "REFUTES"}
+{"id": 33, "contributed_by": "group 9", "claim": "Since there is only a small number of possible values for this variable, we may wish to treat it as qualitative.", "label": "SUPPORTS"}
+{"id": 34, "contributed_by": "group 9", "claim": "The hist() method can be used to plot a flowchart.", "label": "REFUTES"}
+{"id": 35, "contributed_by": "group 9", "claim": "Simple linear regression assumes a linear relationship between X and Y.", "label": "SUPPORTS"}
+{"id": 36, "contributed_by": "group 9", "claim": "The population regression line represents the best linear approximation to the relationship between the predictors and the response.", "label": "SUPPORTS"}
+{"id": 37, "contributed_by": "group 9", "claim": "The least squares regression line is estimated from the sample data.", "label": "SUPPORTS"}
+{"id": 38, "contributed_by": "group 9", "claim": "The least squares estimates for the regression coefficients are biased.", "label": "REFUTES"}
+{"id": 39, "contributed_by": "group 9", "claim": "The standard error of the coefficient estimates quantifies how close they are to the coefficients.", "label": "SUPPORTS"}
+{"id": 40, "contributed_by": "group 9", "claim": "A small RSE indicates a good model fit.", "label": "SUPPORTS"}
+{"id": 41, "contributed_by": "group 9", "claim": "An R2 near 1 indicates that a large fraction of variance in the response has been explained by the model.", "label": "SUPPORTS"}
+{"id": 42, "contributed_by": "group 9", "claim": "Confidence intervals quantify uncertainty in prediction of an individual response.", "label": "REFUTES"}
+{"id": 43, "contributed_by": "group 9", "claim": "Prediction intervals quantify uncertainty in average response over many samples.", "label": "REFUTES"}
+{"id": 44, "contributed_by": "group 9", "claim": "The F-statistic can be used to test if any of the predictors are associated with the response.", "label": "SUPPORTS"}
+{"id": 45, "contributed_by": "group 9", "claim": "Collinearity between predictors reduces the accuracy of coefficient estimates.", "label": "SUPPORTS"}
+{"id": 46, "contributed_by": "group 9", "claim": "Variance inflation factors greater than 10 indicate a problematic amount of collinearity.", "label": "SUPPORTS"}
+{"id": 47, "contributed_by": "group 9", "claim": "Including an interaction term removes the assumption of an additive relationship.", "label": "SUPPORTS"}
+{"id": 48, "contributed_by": "group 9", "claim": "If an interaction term is included, the main effects should also be included even if not significant.", "label": "SUPPORTS"}
+{"id": 49, "contributed_by": "group 9", "claim": "Quadratic regression allows fitting non-linear relationships.", "label": "SUPPORTS"}
+{"id": 50, "contributed_by": "group 9", "claim": "For qualitative predictors, dummy variables can be created.", "label": "SUPPORTS"}
+{"id": 51, "contributed_by": "group 9", "claim": "For a qualitative predictor with k levels, k dummy variables can be created.", "label": "REFUTES"}
+{"id": 52, "contributed_by": "group 9", "claim": "A non-linear relationship may be visible as a pattern in the residuals.", "label": "SUPPORTS"}
+{"id": 53, "contributed_by": "group 9", "claim": "A funnel shape in the residuals indicates non-constant variance.", "label": "SUPPORTS"}
+{"id": 54, "contributed_by": "group 9", "claim": "Observations with large residuals are high leverage points.", "label": "REFUTES"}
+{"id": 55, "contributed_by": "group 9", "claim": "High leverage points can greatly impact the least squares regression line.", "label": "SUPPORTS"}
+{"id": 56, "contributed_by": "group 9", "claim": "Simple linear regression is easier to interpret but less flexible than KNN regression.", "label": "SUPPORTS"}
+{"id": 57, "contributed_by": "group 9", "claim": "KNN regression perfectly interpolates the training data points when K=1.", "label": "SUPPORTS"}
+{"id": 58, "contributed_by": "group 9", "claim": "Larger K values produce lower variance but higher bias KNN fits.", "label": "SUPPORTS"}
+{"id": 59, "contributed_by": "group 9", "claim": "Linear regression often outperforms KNN regression in low dimensions.", "label": "SUPPORTS"}
+{"id": 60, "contributed_by": "group 9", "claim": "KNN regression faces the curse of dimensionality problem in high dimensions.", "label": "SUPPORTS"}
+{"id": 61, "contributed_by": "group 9", "claim": "Linear regression assumptions can be checked using residual plots.", "label": "SUPPORTS"}
+{"id": 62, "contributed_by": "group 9", "claim": "Multicollinearity results in inflated variance of coefficient estimates.", "label": "SUPPORTS"}
+{"id": 63, "contributed_by": "group 9", "claim": "The model F-statistic tests if all coefficients equal zero.", "label": "SUPPORTS"}
+{"id": 64, "contributed_by": "group 9", "claim": "Using many variables in a model can lead to false discoveries.", "label": "SUPPORTS"}
+{"id": 65, "contributed_by": "group 9", "claim": "Common variable selection methods are forward, backward and mixed selection.", "label": "SUPPORTS"}
+{"id": 66, "contributed_by": "group 9", "claim": "Using all subsets of predictors is computationally infeasible for moderate p.", "label": "SUPPORTS"}
+{"id": 67, "contributed_by": "group 9", "claim": "Mallow's Cp can be used to select the best model.", "label": "SUPPORTS"}
+{"id": 68, "contributed_by": "group 9", "claim": "Adjusted R2 penalizes model complexity.", "label": "SUPPORTS"}
+{"id": 69, "contributed_by": "group 9", "claim": "Prediction intervals are wider than confidence intervals.", "label": "SUPPORTS"}
+{"id": 70, "contributed_by": "group 9", "claim": "Weighted least squares can help with heteroscedasticity.", "label": "SUPPORTS"}
+{"id": 71, "contributed_by": "group 9", "claim": "Combining collinear variables can help address collinearity.", "label": "SUPPORTS"}
+{"id": 72, "contributed_by": "group 9", "claim": "VIF measures inflation in coefficient variance due to collinearity.", "label": "SUPPORTS"}
+{"id": 73, "contributed_by": "group 9", "claim": "Using cross-validation can help select model tuning parameters.", "label": "SUPPORTS"}
+{"id": 74, "contributed_by": "group 9", "claim": "Parametric methods like linear regression can outperform nonparametric methods given correct model specification.", "label": "SUPPORTS"}
+{"id": 75, "contributed_by": "group 10", "claim": "Fitting the model multiple times through resampling might provide insights that a single fit on the original training sample wouldn't offer.", "label": "SUPPORTS"}
+{"id": 76, "contributed_by": "group 10", "claim": "Resampling methods involve drawing samples only once from a training set.", "label": "REFUTES"}
+{"id": 77, "contributed_by": "group 10", "claim": "Cross-validation is primarily used to estimate the test error for a statistical learning method and to evaluate its performance.", "label": "SUPPORTS"}
+{"id": 78, "contributed_by": "group 10", "claim": "Resampling approaches can be computationally expensive", "label": "SUPPORTS"}
+{"id": 79, "contributed_by": "group 10", "claim": "validation set error rate estimate the test error rate for the model ft on the entire data set.", "label": "REFUTES"}
+{"id": 80, "contributed_by": "group 10", "claim": "the validation esti-mate of the test error rate is not highly variable,", "label": "REFUTES"}
+{"id": 81, "contributed_by": "group 10", "claim": "LOOCV has far less bias.", "label": "SUPPORTS"}
+{"id": 82, "contributed_by": "group 10", "claim": "In LOOCV, we repeatedly ft the sta-tistical learning method using training sets that contain n - 1 observa-tions, almost as many as are in the entire data set.", "label": "SUPPORTS"}
+{"id": 83, "contributed_by": "group 10", "claim": "the LOOCV approach tends to overestimate the test error rate as much as the validation set approach does.", "label": "REFUTES"}
+{"id": 84, "contributed_by": "group 10", "claim": "performing LOOCV multiple times will always yield the same results:", "label": "SUPPORTS"}
+{"id": 85, "contributed_by": "group 10", "claim": "LOOCV has the potential to be expensive to implement, since the model has to be ft n times.", "label": "SUPPORTS"}
+{"id": 86, "contributed_by": "group 10", "claim": "LOOCV cannot be used with any kind of predictive modeling.", "label": "REFUTES"}
+{"id": 87, "contributed_by": "group 10", "claim": "there is a bias-variance trade-of associated with the choice of k in k-fold cross-validation.", "label": "SUPPORTS"}
+{"id": 88, "contributed_by": "group 10", "claim": "k-fold cross-validation using k = 2 or k = 3, as these values have been shown empirically to yield test error rate estimates that sufer neither from excessively high bias nor from very high variance.", "label": "REFUTES"}
+{"id": 89, "contributed_by": "group 10", "claim": "In practice, for real data, the Bayes decision boundary and the test er-ror rates are unknown.", "label": "SUPPORTS"}
+{"id": 90, "contributed_by": "group 10", "claim": "using fourth-order polynomials would likely lead to good test set performance,", "label": "SUPPORTS"}
+{"id": 91, "contributed_by": "group 10", "claim": "the training error rate cannot be used to select the optimal value for K.", "label": "SUPPORTS"}
+{"id": 92, "contributed_by": "group 10", "claim": "The sampling is performed with replacement, which means that the with replacement same observation can occur more than once in the bootstrap data set", "label": "SUPPORTS"}
+{"id": 93, "contributed_by": "group 10", "claim": "The model is fit on the training set, and the ftted model is used to predict the responses for the observations in the validation set.", "label": "SUPPORTS"}
+{"id": 94, "contributed_by": "group 10", "claim": "The validation set approach involves randomly dividing the available set of observations into three parts: a training set, a validation set, and a test set.", "label": "REFUTES"}
+{"id": 95, "contributed_by": "group 10", "claim": "The validation set error rate is commonly assessed using MSE.", "label": "SUPPORTS"}
+{"id": 96, "contributed_by": "group 10", "claim": "the validation esti-mate of the test error rate cannot be highly variable,", "label": "REFUTES"}
+{"id": 97, "contributed_by": "group 10", "claim": "Leave-one-out cross-validation (LOOCV) is not closely related to the validation set approach", "label": "REFUTES"}
+{"id": 98, "contributed_by": "group 10", "claim": "In the validation approach, only a subset of the observations-those that are included in the training set rather than in the validation set\u2014are used to ft the model.", "label": "SUPPORTS"}
+{"id": 99, "contributed_by": "group 10", "claim": "LOOCV involves splitting the set of observations into three parts.", "label": "REFUTES"}
+{"id": 100, "contributed_by": "group 10", "claim": "validation approach which will yield diferent results when applied repeatedly due to randomness in the training/validation set splits,", "label": "SUPPORTS"}
+{"id": 101, "contributed_by": "group 10", "claim": "polynomial regression makes the cost of LOOCV the same as that of a single model ft", "label": "SUPPORTS"}
+{"id": 102, "contributed_by": "group 10", "claim": "MSE1 is biased for the test error", "label": "REFUTES"}
+{"id": 103, "contributed_by": "group 10", "claim": "validation set approach has a couple of major advantages over the LOOCV.", "label": "REFUTES"}
+{"id": 104, "contributed_by": "group 10", "claim": "function boot_OLS() is used for bootstrapping a regression model", "label": "SUPPORTS"}
+{"id": 105, "contributed_by": "group 10", "claim": "clone function is used to make a copy of the formula that can be refit to the new dataframe", "label": "SUPPORTS"}
+{"id": 106, "contributed_by": "group 10", "claim": "The cross validate function is not flexible", "label": "REFUTES"}
+{"id": 107, "contributed_by": "group 10", "claim": "The randomly-selected training samples never overlap", "label": "REFUTES"}
+{"id": 108, "contributed_by": "group 10", "claim": "The two best-known techniques for shrinking the regression coefficients towards zero are ridge regression and the lasso.", "label": "SUPPORTS"}
+{"id": 109, "contributed_by": "group 10", "claim": "Ridge regression is not similar to least squares, except that the coefcients ridge regression", "label": "REFUTES"}
+{"id": 110, "contributed_by": "group 10", "claim": "Unlike least squares, which generates only one set of co-effcient estimates, ridge regression will produce a different set of coefficient estimates,", "label": "SUPPORTS"}
+{"id": 111, "contributed_by": "group 10", "claim": "the ridge regression coefficient estimates can change sub-stantially when multiplying a given predictor by a constant.", "label": "REFUTES"}
+{"id": 112, "contributed_by": "group 10", "claim": "At the least squares coefcient estimates, which correspond to ridge regression with lambda = 0, the variance is high but there is no bias.", "label": "SUPPORTS"}
+{"id": 113, "contributed_by": "group 10", "claim": "a small change in the training data can cause no change in the least squares coefficient estimates.", "label": "REFUTES"}
+{"id": 114, "contributed_by": "group 10", "claim": "For fixed value of lambda, ridge regression will only fit one model.", "label": "SUPPORTS"}
+{"id": 115, "contributed_by": "group 10", "claim": "Lasso generates models are more understandable than ridge regression models.", "label": "SUPPORTS"}
+{"id": 116, "contributed_by": "group 10", "claim": "When lambda is large then it gives the least square fit", "label": "REFUTES"}
+{"id": 117, "contributed_by": "group 10", "claim": "Lambda = 0, then the lasso simply gives the least square fit", "label": "SUPPORTS"}
+{"id": 118, "contributed_by": "group 10", "claim": "Ridge regression has a linear constraint with no sharp points", "label": "REFUTES"}
+{"id": 119, "contributed_by": "group 10", "claim": "Lasso performs variable selection, resulting in easier interpretation", "label": "SUPPORTS"}
+{"id": 120, "contributed_by": "group 10", "claim": "Least square coefficients are shrunken in the different proportion in Ridge regression", "label": "REFUTES"}
+{"id": 121, "contributed_by": "group 10", "claim": "Soft-Thresholding is a shrinkage performed in lasso regression in simple setting", "label": "SUPPORTS"}
+{"id": 122, "contributed_by": "group 10", "claim": "PCA derives high dimensional set of features from the dataset", "label": "REFUTES"}
+{"id": 123, "contributed_by": "group 10", "claim": "The first principal component vector in PCA is the line that is most close to to the data", "label": "SUPPORTS"}
+{"id": 124, "contributed_by": "group 10", "claim": "The predictors that best represent involves identifying non-linear combination, this approach is PCR", "label": "REFUTES"}
+{"id": 125, "contributed_by": "group 10", "claim": "Dataset with more observation than number of features are considered to be high dimensional", "label": "REFUTES"}
+{"id": 126, "contributed_by": "group 10", "claim": "adding signal features that are truly associated with the response will improve the fitted model, ", "label": "SUPPORTS"}
+{"id": 127, "contributed_by": "group 10", "claim": "feature selection is used for removing variables that are not relevant from a multiple regression model.", "label": "SUPPORTS"}
+{"id": 128, "contributed_by": "group 10", "claim": "The approach that projects the p predictors into an M-dimensional subspace is called Dimension Reduction, where M>p.", "label": "REFUTES"}
+{"id": 129, "contributed_by": "group 10", "claim": "To perform best subset selection, we ft a separate least squares regression for each possible combination of the p predictors", "label": "SUPPORTS"}
+{"id": 130, "contributed_by": "group 10", "claim": "a low RSS or a high R2 indicates a model with a high training error", "label": "REFUTES"}
+{"id": 131, "contributed_by": "group 10", "claim": "The deviance is negative two times the maximized log-likelihood; the smaller the deviance, the better the fit.", "label": "SUPPORTS"}
+{"id": 132, "contributed_by": "group 10", "claim": "an enormous search space can lead to underftting and low variance of the coefficient estimates.", "label": "REFUTES"}
+{"id": 133, "contributed_by": "group 10", "claim": "Forward stepwise selection is a computationally efcient alternative to best subset selection", "label": "SUPPORTS"}
+{"id": 134, "contributed_by": "group 10", "claim": "backward stepwise selection begins with the full least squares model containing some p predictors, and then iteratively removes the least useful predictor, one-at-a-time", "label": "REFUTES"}
+{"id": 135, "contributed_by": "group 10", "claim": "Backward selection requires that the number of samples n is smaller than the number of variables p (so that the full model can be fit)", "label": "REFUTES"}
+{"id": 136, "contributed_by": "group 10", "claim": "The best subset, forward stepwise, and backward stepwise selection approaches generally give similar but not identical models.", "label": "SUPPORTS"}
+{"id": 137, "contributed_by": "group 10", "claim": "the training error will decrease as more variables are included in the model, but the test error may not.", "label": "SUPPORTS"}
+{"id": 138, "contributed_by": "group 10", "claim": "the Cp statistic tends to take on a small value for models with a high test error,", "label": "REFUTES"}
+{"id": 139, "contributed_by": "group 10", "claim": "Like Cp, the BIC will tend to take on a small value for a model with a low test error,", "label": "SUPPORTS"}
+{"id": 140, "contributed_by": "group 10", "claim": "The intuition behind the adjusted R2 is that once all of the correct variables have been included in the model, adding additional noise variables will lead to only a very large decrease in RSS.", "label": "REFUTES"}
+{"id": 141, "contributed_by": "group 10", "claim": "Unlike the R2 statistic, the adjusted R2 statistic pays a price for the inclusion of unnecessary variables in the model.", "label": "SUPPORTS"}
+{"id": 142, "contributed_by": "group 10", "claim": "Step functions cut the range of a variable into K distinct regions in order to produce a qualitative variable.", "label": "SUPPORTS"}
+{"id": 143, "contributed_by": "group 10", "claim": "Regression splines result from minimizing a residual sum of squares criterion subject to a smoothness penalty.", "label": "REFUTES"}
+{"id": 144, "contributed_by": "group 10", "claim": "Regression splines are more flexible than polynomials and step functions", "label": "SUPPORTS"}
+{"id": 145, "contributed_by": "group 10", "claim": "a piecewise cubic with one knots is just a standard cubic knot polynomial", "label": "REFUTES"}
+{"id": 146, "contributed_by": "group 10", "claim": "The estimated pointwise standard error of f(x0) is the square-root of this variance", "label": "SUPPORTS"}
+{"id": 147, "contributed_by": "group 10", "claim": "Use of lesser knots leads to a more flexible piecewise polynomial.", "label": "REFUTES"}
+{"id": 148, "contributed_by": "group 10", "claim": "Polynomial and piecewise-constant regression models are in fact special cases of a basis function approach", "label": "SUPPORTS"}
+{"id": 149, "contributed_by": "group 10", "claim": "The number of degrees of freedom piecewise polynomial model has is 4 degree of freedom", "label": "REFUTES"}
+{"id": 150, "contributed_by": "group 10", "claim": "piecewise polynomial regression involves fitting separate low-degree polynomials over different regions of X.", "label": "SUPPORTS"}
+{"id": 151, "contributed_by": "group 10", "claim": "polynomial regression often give superior results to Regression splines.", "label": "REFUTES"}
+{"id": 152, "contributed_by": "group 10", "claim": "if we place K different knots throughout the range of X, then we will end up fitting K +1 different cubic polynomials", "label": "SUPPORTS"}
+{"id": 153, "contributed_by": "group 10", "claim": "Local regression also generalizes very naturally when we want to fit models that are local in a pair of variables X1 and X2, rather than one.", "label": "SUPPORTS"}
+{"id": 154, "contributed_by": "group 10", "claim": "A natural spline is a regression spline with additional boundary constraint", "label": "SUPPORTS"}
+{"id": 155, "contributed_by": "group 10", "claim": "The main advantage of GAMs is that the model is restricted to be additive.", "label": "REFUTES"}
+{"id": 156, "contributed_by": "group 10", "claim": "The regression spline is most flexible in regions that contain a lot of knots.", "label": "SUPPORTS"}
+{"id": 157, "contributed_by": "group 10", "claim": "a cubic spline is obtained by fitting a line in each region of the predictor space defined by the knots, requiring continuity at each knot.", "label": "REFUTES"}
+{"id": 158, "contributed_by": "group 10", "claim": "Local regression is a different approach for fitting flexible non-linear functions", "label": "SUPPORTS"}
+{"id": 159, "contributed_by": "group 10", "claim": "splines can have very low variance at the outer range of the predictors", "label": "REFUTES"}
+{"id": 160, "contributed_by": "group 10", "claim": "Local regression is also referred to as a memory-based procedure", "label": "SUPPORTS"}
+{"id": 161, "contributed_by": "group 10", "claim": "in feedforward network the outputs from units in each layer are passed to units in the next lower layer", "label": "REFUTES"}
+{"id": 162, "contributed_by": "group 10", "claim": "Backfitting method fits a model involving multiple predictors by repeatedly updating the fit for each predictor in turn, holding the others fixed.", "label": "SUPPORTS"}
+{"id": 163, "contributed_by": "group 10", "claim": "cross-entropy loss is simply the positive log of the output probability corresponding to the correct class, and we therefore also call this the positive log likelihood loss", "label": "REFUTES"}
+{"id": 164, "contributed_by": "group 10", "claim": "Generalized additive models (GAMs) provide a general framework for extending a standard linear model by allowing non-linear functions of each of the variables, while maintaining additivity.", "label": "SUPPORTS"}
+{"id": 165, "contributed_by": "group 10", "claim": "In logistic regression we initialize the weights and biases of gradient descent with small values", "label": "REFUTES"}
+{"id": 166, "contributed_by": "group 10", "claim": "The intuition of backward differentiation is to pass gradients back from the final node to all the nodes in the graph.", "label": "SUPPORTS"}
+{"id": 167, "contributed_by": "group 10", "claim": "Smoothing splines place a knot at every unique predictor value.", "label": "SUPPORTS"}
+{"id": 168, "contributed_by": "group 10", "claim": "Indicator functions are also called dummy variables", "label": "SUPPORTS"}
+{"id": 169, "contributed_by": "group 10", "claim": "Forward inference is running a forward pass on the network to produce a probability distribution over possible outputs", "label": "SUPPORTS"}
+{"id": 170, "contributed_by": "group 10", "claim": "GAMs are additive models and so cannot directly incorporate interactions between variables", "label": "REFUTES"}
+{"id": 171, "contributed_by": "group 10", "claim": "neural language models more accurate at word-prediction than n-gram models", "label": "SUPPORTS"}
+{"id": 172, "contributed_by": "group 10", "claim": "The best practice it is common to place knots in a uniform fashion.", "label": "SUPPORTS"}
+{"id": 173, "contributed_by": "group 10", "claim": "Natural splines reduce variance by constraining the function near boundaries.", "label": "REFUTES"}
+{"id": 174, "contributed_by": "group 10", "claim": "Span controls the flexibility of the non-linear fit. The smaller the value of s, the more local and wiggly will be the fit", "label": "SUPPORTS"}
+{"id": 175, "contributed_by": "group 10", "claim": "Step functions like wavelets and Fourier series can be used to construct regression splines.", "label": "REFUTES"}
+{"id": 176, "contributed_by": "group 11", "claim": "A classification tree is used to predict a qualitative response.", "label": "SUPPORTS"}
+{"id": 177, "contributed_by": "group 11", "claim": "In a regression tree, the predicted response for an observation is given by the mean response of the training observations that belong to the same terminal node.", "label": "SUPPORTS"}
+{"id": 178, "contributed_by": "group 11", "claim": "For a classification tree, the prediction for each observation is based on the class proportions among the training observations that fall into the same region.", "label": "SUPPORTS"}
+{"id": 179, "contributed_by": "group 11", "claim": "Growing a classification tree uses the same approach as growing a regression tree.", "label": "SUPPORTS"}
+{"id": 180, "contributed_by": "group 11", "claim": "Recursive binary splitting is used for growing both regression and classification trees.", "label": "SUPPORTS"}
+{"id": 181, "contributed_by": "group 11", "claim": "The classification error rate is the fraction of training observations in a region that do not belong to the most common class.", "label": "SUPPORTS"}
+{"id": 182, "contributed_by": "group 11", "claim": "The Gini index measures the total variance across classes and is sensitive if all proportions are close to zero or one.", "label": "SUPPORTS"}
+{"id": 183, "contributed_by": "group 11", "claim": "When building a classification tree, the Gini index or entropy are used to evaluate the quality of a split.", "label": "SUPPORTS"}
+{"id": 184, "contributed_by": "group 11", "claim": "The Gini index measures node purity.", "label": "SUPPORTS"}
+{"id": 185, "contributed_by": "group 11", "claim": "Decision trees can be constructed even when predictor variables are qualitative.", "label": "SUPPORTS"}
+{"id": 186, "contributed_by": "group 11", "claim": "Increasing node purity enhances the certainty of response value predictions for test observations.", "label": "SUPPORTS"}
+{"id": 187, "contributed_by": "group 11", "claim": "Trees can be displayed graphically and are easily interpreted.", "label": "SUPPORTS"}
+{"id": 188, "contributed_by": "group 11", "claim": "Aggregating many decision trees can enhance the predictive performance of trees.", "label": "SUPPORTS"}
+{"id": 189, "contributed_by": "group 11", "claim": "Each bagged tree on average uses around two-thirds of the observations.", "label": "SUPPORTS"}
+{"id": 190, "contributed_by": "group 11", "claim": "OOB error is virtually equivalent to leave-one-out cross-validation error when B is large.", "label": "SUPPORTS"}
+{"id": 191, "contributed_by": "group 11", "claim": "Random forests are a variation of bagged trees with a tweak that decorrelates the trees.", "label": "SUPPORTS"}
+{"id": 192, "contributed_by": "group 11", "claim": "BART is an ensemble method that uses decision trees as its building blocks.", "label": "SUPPORTS"}
+{"id": 193, "contributed_by": "group 11", "claim": "Trees are chosen as weak learners in ensemble methods because of their ability to handle predictors of mixed types.", "label": "SUPPORTS"}
+{"id": 194, "contributed_by": "group 11", "claim": "Random forests grow trees using only a random subset of features for each split.", "label": "SUPPORTS"}
+{"id": 195, "contributed_by": "group 11", "claim": "RSS can be used as a criterion for making binary splits in classification trees.", "label": "REFUTES"}
+{"id": 196, "contributed_by": "group 11", "claim": "A small Gini index value indicates that a node predominantly contains observations from multiple classes.", "label": "REFUTES"}
+{"id": 197, "contributed_by": "group 11", "claim": "The classification error rate is always preferable when pruning a tree.", "label": "REFUTES"}
+{"id": 198, "contributed_by": "group 11", "claim": "The Gini index and entropy are numerically different.", "label": "REFUTES"}
+{"id": 199, "contributed_by": "group 11", "claim": "The predictor variables always take on continuous values in decision trees.", "label": "REFUTES"}
+{"id": 200, "contributed_by": "group 11", "claim": "Splits in decision trees can result in two terminal nodes with different predicted values.", "label": "REFUTES"}
+{"id": 201, "contributed_by": "group 11", "claim": "Trees are harder to explain than linear regression.", "label": "REFUTES"}
+{"id": 202, "contributed_by": "group 11", "claim": "Bagging is a procedure specifically designed for decision trees.", "label": "REFUTES"}
+{"id": 203, "contributed_by": "group 11", "claim": "Bagged trees use all of the observations when they are fit.", "label": "REFUTES"}
+{"id": 204, "contributed_by": "group 11", "claim": "OOB observations are used to fit a given bagged tree.", "label": "REFUTES"}
+{"id": 205, "contributed_by": "group 11", "claim": "OOB approach is not suitable for large data sets.", "label": "REFUTES"}
+{"id": 206, "contributed_by": "group 11", "claim": "In random forests, each split considers all predictors.", "label": "REFUTES"}
+{"id": 207, "contributed_by": "group 11", "claim": "In BART, every tree is constructed by fitting it to the residual of the previous tree's fit.", "label": "REFUTES"}
+{"id": 208, "contributed_by": "group 11", "claim": "A large tree always leads to better test set performance because of its complexity.", "label": "REFUTES"}
+{"id": 209, "contributed_by": "group 11", "claim": "The maximal margin hyperplane is the separating hyperplane that is farthest from the training observations.", "label": "SUPPORTS"}
+{"id": 210, "contributed_by": "group 11", "claim": "Maximal margin hyperplane depends directly on the support vectors, but not on the other observations:", "label": "SUPPORTS"}
+{"id": 211, "contributed_by": "group 11", "claim": "In SVCs, only observations that lie on the margin or violate the margin affect the hyperplane and the resulting classifier.", "label": "SUPPORTS"}
+{"id": 212, "contributed_by": "group 11", "claim": "The support vector classifier's loss function, hinge loss, is closely related to the loss function used in logistic regression, leading to similar results when classes are well separated.", "label": "SUPPORTS"}
+{"id": 213, "contributed_by": "group 11", "claim": "SVMs have connections with classical statistical methods, and their formulation involves a trade-off between bias and variance, similar to methods like ridge regression and the lasso.", "label": "SUPPORTS"}
+{"id": 214, "contributed_by": "group 11", "claim": "Support vector regression is an extension of SVMs for regression problems, seeking coefficients that minimize a loss function where only residuals larger than a positive constant contribute to the loss.", "label": "SUPPORTS"}
+{"id": 215, "contributed_by": "group 11", "claim": "The choice of the tuning parameter C in SVCs determines the balance between bias and variance in the classifier, impacting its robustness and accuracy.", "label": "SUPPORTS"}
+{"id": 216, "contributed_by": "group 11", "claim": "SVCs are highly sensitive to observations that are far from the hyperplane.", "label": "SUPPORTS"}
+{"id": 217, "contributed_by": "group 11", "claim": "Using non-linear kernels, SVMs can create decision boundaries in higher-dimensional spaces, making them suitable for capturing complex patterns in the data.", "label": "SUPPORTS"}
+{"id": 218, "contributed_by": "group 11", "claim": "Higher flexibility in a model doesn't always guarantee better performance on test data; it can lead to overfitting and poor generalization.", "label": "SUPPORTS"}
+{"id": 219, "contributed_by": "group 11", "claim": "SVMs handle multi-class classification problems by employing either one-versus-one or one-versus-all strategies, allowing them to extend beyond binary classification.", "label": "SUPPORTS"}
+{"id": 220, "contributed_by": "group 11", "claim": "The choice between one-versus-one and one-versus-all methods in SVMs depends on the specific dataset characteristics and the desired trade-off between computational efficiency and accuracy.", "label": "SUPPORTS"}
+{"id": 221, "contributed_by": "group 11", "claim": "A hyperplane divides p-dimensional space into two halves, and the side on which a point lies can be determined by calculating the sign of the left-hand side of the hyperplane equation.", "label": "SUPPORTS"}
+{"id": 222, "contributed_by": "group 11", "claim": "The support vector machine (SVM) is an extension of the support vector classifier that employs kernels to create non-linear decision boundaries.", "label": "SUPPORTS"}
+{"id": 223, "contributed_by": "group 11", "claim": "The soft margin concept enables Support Vector Classifiers to find a balance between maximizing the margin and minimizing classification errors.", "label": "SUPPORTS"}
+{"id": 224, "contributed_by": "group 11", "claim": "Logistic regression exhibits low sensitivity to observations that are far from the decision boundary, unlike Linear Discriminant Analysis (LDA).", "label": "SUPPORTS"}
+{"id": 225, "contributed_by": "group 11", "claim": "A hyperplane can have different shapes, not just lines or planes.", "label": "REFUTES"}
+{"id": 226, "contributed_by": "group 11", "claim": "The support vector classifier(soft margin) is limited to only separable cases; it cannot handle non-separable data.", "label": "REFUTES"}
+{"id": 227, "contributed_by": "group 11", "claim": "SVCs and logistic regression are not related in terms of their classification rules.", "label": "REFUTES"}
+{"id": 228, "contributed_by": "group 11", "claim": "The choice of the appropriate kernel in SVMs does not impact the algorithm's ability to capture non-linear patterns in the data.", "label": "REFUTES"}
+{"id": 229, "contributed_by": "group 11", "claim": "The use of kernels to expand the feature space and accommodate non-linear class boundaries is unique to SVMs and not applicable to other machine learning methods.", "label": "REFUTES"}
+{"id": 230, "contributed_by": "group 11", "claim": "The SVMs' fitted values and class predictions have a complex relationship, making it difficult to produce ROC curves based solely on changes in the threshold values.", "label": "REFUTES"}
+{"id": 231, "contributed_by": "group 11", "claim": "Tuning parameters like gamma in SVMs do not significantly impact the accuracy of predictions, and the choice of parameters does not affect the ROC curves.", "label": "REFUTES"}
+{"id": 232, "contributed_by": "group 11", "claim": "SVMs are not suitable for gene expression data analysis, especially when the number of features is much larger than the number of observations, as shown in the passage.", "label": "REFUTES"}
+{"id": 233, "contributed_by": "group 11", "claim": "Observations that lie directly on the margin, or on the wrong side of the margin for their class, are not necessarily always support vectors.", "label": "REFUTES"}
+{"id": 234, "contributed_by": "group 11", "claim": "SVM does not take a loss + penalty form similar to ridge regression, and the penalty does not directly control the bias-variance tradeoff.", "label": "REFUTES"}
+{"id": 235, "contributed_by": "group 11", "claim": "Support vector machines inevitably lead to unmanageable computations due to the enlargement of the feature space.", "label": "REFUTES"}
+{"id": 236, "contributed_by": "group 11", "claim": "The SVM with \u03b3 = 10^-1 consistently performs better than other gamma values on both training and test data.", "label": "REFUTES"}
+{"id": 237, "contributed_by": "group 11", "claim": "The concept of finding a hyperplane in SVMs was not different from classical approaches like logistic regression.", "label": "REFUTES"}
+{"id": 238, "contributed_by": "group 11", "claim": "The margin width in SVM remains constant regardless of the dataset characteristics or the C parameter.", "label": "REFUTES"}
+{"id": 239, "contributed_by": "group 11", "claim": "Support vector classification and logistic regression have similar sensitivity to observations far from the decision boundary.", "label": "REFUTES"}
+{"id": 240, "contributed_by": "group 11", "claim": "Support vector classification can perfectly classify all training observations when a separating hyperplane exists.", "label": "REFUTES"}
+{"id": 241, "contributed_by": "group 11", "claim": "Support vector classification always results in a lower bias classifier compared to logistic regression.", "label": "REFUTES"}
+{"id": 242, "contributed_by": "group 11", "claim": "Neural networks became popular in the late 1980s.", "label": "SUPPORTS"}
+{"id": 243, "contributed_by": "group 11", "claim": "Deep learning emerged after 2010 with new architectures and success stories.", "label": "SUPPORTS"}
+{"id": 244, "contributed_by": "group 11", "claim": "SVMs, boosting, and random forests were always superior to neural networks.", "label": "REFUTES"}
+{"id": 245, "contributed_by": "group 11", "claim": "Neural networks never required a lot of tinkering.", "label": "REFUTES"}
+{"id": 246, "contributed_by": "group 11", "claim": "Convolutional Neural Networks (CNNs) have shown spectacular success in classifying images.", "label": "SUPPORTS"}
+{"id": 247, "contributed_by": "group 11", "claim": "CNNs work in a way entirely different from how humans classify images.", "label": "REFUTES"}
+{"id": 248, "contributed_by": "group 11", "claim": "Convolution layers use simple operations involving convolution to detect local features in images.", "label": "SUPPORTS"}
+{"id": 249, "contributed_by": "group 11", "claim": "In CNNs, filters are learned for the specific classification task, unlike predefined filters in image processing.", "label": "SUPPORTS"}
+{"id": 250, "contributed_by": "group 11", "claim": "CNN filter weights serve as parameters from an input layer to a hidden layer with one hidden unit for each pixel in the convolved image.", "label": "SUPPORTS"}
+{"id": 251, "contributed_by": "group 11", "claim": "In CNNs, filters operate on the entire image without structural constraints.", "label": "REFUTES"}
+{"id": 252, "contributed_by": "group 11", "claim": "CNN filter weights are not reused for all possible patches in the image.", "label": "REFUTES"}
+{"id": 253, "contributed_by": "group 11", "claim": "Max pooling reduces the size of the image by a factor of two in each direction and provides some location invariance.", "label": "SUPPORTS"}
+{"id": 254, "contributed_by": "group 11", "claim": "Pooling layers do not reduce the size of the image and do not provide location invariance.", "label": "REFUTES"}
+{"id": 255, "contributed_by": "group 11", "claim": "In a CNN, the number of convolution filters defines the number of channels in the resulting three-dimensional feature map.", "label": "SUPPORTS"}
+{"id": 256, "contributed_by": "group 11", "claim": "After the first round of convolutions in a CNN, there is a new feature map with considerably more channels than the input channels.", "label": "SUPPORTS"}
+{"id": 257, "contributed_by": "group 11", "claim": "The number of convolution filters in a CNN has no impact on the number of channels in the resulting three-dimensional feature map.", "label": "REFUTES"}
+{"id": 258, "contributed_by": "group 11", "claim": "In a CNN, the number of channels in the feature map is equal to the number of color input channels.", "label": "REFUTES"}
+{"id": 259, "contributed_by": "group 11", "claim": "The max-pool layer reduces the size of the feature map in each channel by a factor of four: two in each dimension.", "label": "SUPPORTS"}
+{"id": 260, "contributed_by": "group 11", "claim": "The number of filters in subsequent convolution layers is increased to compensate for the reduction in size of the channel feature maps.", "label": "SUPPORTS"}
+{"id": 261, "contributed_by": "group 11", "claim": "Convolution layers are not similar to the first layer in terms of input and filters.", "label": "REFUTES"}
+{"id": 262, "contributed_by": "group 11", "claim": "Pooling layers are not repeated before convolution layers to increase filter dimensions.", "label": "REFUTES"}
+{"id": 263, "contributed_by": "group 11", "claim": "Pooling reduces each channel feature map to just a few pixels in each dimension before feeding them into fully-connected layers.", "label": "SUPPORTS"}
+{"id": 264, "contributed_by": "group 11", "claim": "Convolutional neural networks are challenging to construct due to many tuning parameters, but excellent software with examples is available to help.", "label": "SUPPORTS"}
+{"id": 265, "contributed_by": "group 11", "claim": "Pooling layers maintain high-resolution feature maps without reducing dimensions.", "label": "REFUTES"}
+{"id": 266, "contributed_by": "group 11", "claim": "Excellent software is not available to assist in constructing convolutional neural networks.", "label": "REFUTES"}
+{"id": 267, "contributed_by": "group 11", "claim": "Data augmentation is a technique used for increasing the training set by replicating and distorting training images, protecting against overfitting.", "label": "SUPPORTS"}
+{"id": 268, "contributed_by": "group 11", "claim": "Data augmentation creates a cloud of images around each original image, all with the same label, and is a form of regularization.", "label": "SUPPORTS"}
+{"id": 269, "contributed_by": "group 11", "claim": "Data augmentation does not protect against overfitting and does not increase the training set size.", "label": "REFUTES"}
+{"id": 270, "contributed_by": "group 11", "claim": "Data augmentation is not similar in spirit to ridge regularization.", "label": "REFUTES"}
+{"id": 271, "contributed_by": "group 11", "claim": "The ResNet50 classifier was trained using the ImageNet dataset, which contains millions of images from numerous categories.", "label": "SUPPORTS"}
+{"id": 272, "contributed_by": "group 11", "claim": "Learning convolution filters at the hidden layers is a crucial part of fitting a CNN.", "label": "SUPPORTS"}
+{"id": 273, "contributed_by": "group 11", "claim": "Pretrained hidden layers can be used as features for natural-image classification problems.", "label": "SUPPORTS"}
+{"id": 274, "contributed_by": "group 11", "claim": "The ResNet50 classifier does a perfect job classifying the hawk in the second image.", "label": "REFUTES"}
+{"id": 275, "contributed_by": "group 11", "claim": "Weight freezing is only applicable to small training sets.", "label": "REFUTES"}
